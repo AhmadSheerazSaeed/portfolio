@@ -4,6 +4,7 @@
   margin: 0;
   box-sizing: border-box;
   text-decoration: none;
+  user-select: none;
 }
 
 :root {
@@ -44,7 +45,7 @@ body {
   height: 25px;
   border-radius: 50%;
   background-color: var(--text-crimson);
-  border: 0.5px solid var(--text-and-bg-black);
+  border: 2px solid var(--text-and-bg-black);
 
   /* animation: top-btn-animation 5s linear infinite; */
 }
@@ -54,13 +55,13 @@ body {
     background-color: crimson;
   }
   25% {
-    background-color: black;
+    background-color: whitesmoke;
   }
   50% {
     background-color: crimson;
   }
   75% {
-    background-color: black;
+    background-color: whitesmoke;
   }
   100% {
     background-color: crimson;
@@ -95,6 +96,10 @@ header {
   font-size: var(--a-links-font-size);
   color: var(--text-white);
   text-decoration: none;
+}
+
+.logo-link:hover {
+  color: var(--text-crimson);
 }
 
 .nav-menu-circle {
