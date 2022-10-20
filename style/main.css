@@ -1,3 +1,4 @@
+/* default styling is for mobile first */
 * {
   padding: 0;
   margin: 0;
@@ -39,11 +40,13 @@ body {
   color: var(--text-crimson);
   position: fixed;
   bottom: calc(0px + 20px);
-  width: 50px;
-  height: 50px;
+  width: 25px;
+  height: 25px;
   border-radius: 50%;
-  /* background-color: var(--text-white); */
-  animation: top-btn-animation 5s linear infinite;
+  background-color: var(--text-crimson);
+  border: 0.5px solid var(--text-and-bg-black);
+
+  /* animation: top-btn-animation 5s linear infinite; */
 }
 
 @keyframes top-btn-animation {
@@ -574,8 +577,16 @@ footer {
   font-size: var(--p-text-font-size);
 }
 
-/* media query for tablets */
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+/* ----------------- media query for tablets and desktops ----------------- */
 @media screen and (min-width: 700px) {
+  /* link which will take you to the top */
+  .fixed-link-go-top {
+    width: 35px;
+    height: 35px;
+    animation: top-btn-animation 5s linear infinite;
+  }
   /* navigation */
   nav {
     display: block;
