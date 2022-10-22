@@ -278,6 +278,10 @@ header {
   text-decoration: underline 2px solid var(--text-crimson);
 }
 
+.navigation-main ul li a:hover span {
+  color: var(--text-white);
+}
+
 /* change text color to crimson */
 nav ul li a span {
   color: var(--text-and-bg-black);
