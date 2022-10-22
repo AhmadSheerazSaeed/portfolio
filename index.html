@@ -257,9 +257,14 @@
           back <span>to you</span> as soon as possible
         </h4>
 
-        <form action="#" class="contact-form">
+        <form
+          action="https://formspree.io/f/xnqrpwvj"
+          method="post"
+          class="contact-form"
+        >
           <label for="input-id-name">Name</label>
           <input
+            name="name"
             type="text"
             id="input-id-name"
             class="input-class-name"
@@ -268,6 +273,7 @@
 
           <label for="input-id-email">E-Mail</label>
           <input
+            name="email"
             type="email"
             id="input-id-email"
             class="input-class-email"
@@ -276,6 +282,7 @@
 
           <label for="contact-message">Message</label>
           <textarea
+            name="detail"
             name="contact-message"
             id="contact-message"
             cols="30"

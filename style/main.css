@@ -502,7 +502,7 @@ nav {
 .contact-form > textarea {
   background-color: var(--text-and-bg-black);
   color: var(--text-white);
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .contact-form label {
@@ -514,6 +514,7 @@ nav {
   background-color: var(--text-white);
   margin-top: 2rem;
   width: 90%;
+  cursor: pointer;
 }
 
 .contact-section button a {
