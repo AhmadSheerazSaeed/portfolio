@@ -557,6 +557,10 @@ footer {
   margin-left: 1rem;
 }
 
+.social-media-icons figure a {
+  color: var(--text-and-bg-black);
+}
+
 .fa-github,
 .fa-square-twitter,
 .fa-linkedin,
