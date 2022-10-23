@@ -1,3 +1,7 @@
+/* fonts */
+/* font-family: 'Playfair Display', serif; */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
 /* default styling is for mobile first */
 * {
   padding: 0;
@@ -21,11 +25,13 @@
   --a-links-font-size: 1.3rem;
   --p-text-font-size: 1.3rem;
   --left-right-section-margins: 20px;
+  --text-fonts-family: "Playfair Display", serif;
 }
 
 body {
   max-width: 1000px;
   margin: 0 auto;
+  font-family: "Times New Roman", Times, serif;
 }
 
 /* main wrapper all the elements are inside this wrapper */
@@ -35,6 +41,10 @@ body {
 
   margin: 0px auto;
 }
+
+/* fonts for headings */
+
+/* fonts for normal texts */
 
 /* link which will take you to the top */
 .fixed-link-go-top {
